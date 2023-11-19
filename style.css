@@ -1,0 +1,46 @@
+ @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier Prime', monospace;
+}
+body{
+    background: rgb(62, 51, 51);
+}
+.stpWa{
+    color: #fff;
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/BackGround.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.stpWa .buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.stpWa h1{
+    font-size: 60px;
+    font-weight: 200;
+    font-style: italic;
+}
+.stpWa .buttons img{
+    width: 50px;
+}
+.stpWa .buttons img:nth-child(2){
+    width: 55px;
+}
+@media ( max-width:450px ){
+    .stpWa{
+        max-width: 400px;
+    }
+}
